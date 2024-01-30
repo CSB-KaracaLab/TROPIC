@@ -14,16 +14,17 @@ Within the framework of the TROPIC, we identified [276 domain-domain interaction
 In this step, the aim was to evaluate the modeled structures based on interface quality and identify models with high-quality interfaces. The models were filtered according to their confidence scores. 
 - **Confidence Rank (Confrank) Score**: Confidance score is a linear combination of the predicted interface TMscore (ipTM) and the predicted TMscore (pTM), determined as 0.8 × ipTM + 0.2 × pTM. 
 - **ipTM (Interface Predicted Template Modeling) Score:** Assesses the quality of interfaces in multimeric structures and gauges accuracy at the complex level and. 
-- **pTM (Predicted TM Score):**: Represents the matching value between two constructs and assess the accuracy of predictions within individual protein chains.
+- **pTM (Predicted TM Score):** Represents the matching value between two constructs and assess the accuracy of predictions within individual protein chains.
 
 All scores range between 0 and 1. As the scores goes from 0 to 1, the model quality increases.
 
+For each run, among 25 generated models, we selected the Ranked_0.pdb model which has the highest confidence score.For further investion, we also used pLDDT scores to color the 3D structures of models to investigate the quality of the residue predictions on the interface further as well as with the PAE graphs.
 
-
+- **pLDDT (Predicted Local Distance Difference Test) Score:** According to the pLDDT score calculated by AF2-Multimer, which measures how well the distances between atoms can be predicted, high-quality regions of the models are colored according to blue color and tones, and low-quality regions are colored according to red color and tones.
+  - **PAE (Predicted Alignment Error)**: The reliability of the pLDDT score can be questioned via PAE plots that show the expected distance error in Angstroms. In the PAE plot, the predicted and actual structures are aligned on the y-axis, and the expected positional error of Alphafold is scored on the x-axis. The expected error score, which is low in the blue areas, gets higher and higher towards the red.
 
 
 ## Results
-
-By selecting those with confrank>0.9 belonging to the Rank_0 model of 276 interactions, we identified 8 interactions of significant biological importance in host-parasite crosstalk.
+Among the [Rank_0 model scores of 276 interaction models](TROPIC-AF2-results.csv) 8 interactions with confrank>0.9 were identified to have significant biological impact in host-parasite interaction.
 
 ![tropic-final-candidates](tropic-final-candidates.jpeg)
