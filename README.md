@@ -13,7 +13,7 @@ By following [AF2 analysis github page](https://github.com/grandrea/Alphafold-an
 #### Determination of Druggable Interactions from the Modeled Interactions, Including Structural and Evolutionary Data
 
 In this step, the aim was to evaluate the modeled structures based on interface quality and identify models with high-quality interfaces. The models were filtered according to their confidence scores. 
-- **Confidence Rank (Confrank) Score**: Confidance score is a linear combination of the predicted interface TMscore (ipTM) and the predicted TMscore (pTM), determined as 0.8 × ipTM + 0.2 × pTM. 
+- **Confidence Rank (Confrank) Score**: Confidence score is a linear combination of the predicted interface TMscore (ipTM) and the predicted TMscore (pTM), determined as 0.8 × ipTM + 0.2 × pTM. 
 - **ipTM (Interface Predicted Template Modeling) Score:** Assesses the quality of interfaces in multimeric structures and gauges accuracy at the complex level and. 
 - **pTM (Predicted TM Score):** Represents the matching value between two constructs and assess the accuracy of predictions within individual protein chains.
 
