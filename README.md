@@ -1,6 +1,6 @@
 <img width="1099" alt="github-title" src="Title-Tropic.png">
 
-Parasitic diseases, particularly prevalent in underdeveloped countries and among young children, pose a significant global concern with substantial socioeconomic impacts. To overcome the challenges posed by drug resistance and limited pharmaceutical options, understanding molecular interactions between parasites and hosts at the genetic, transcriptomic, proteomic, and metabolomic levels is crucial for unraveling infection patterns and host adaptation. Building on [Dr. Cuesta-Astroz's 2019 study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6381214/) that unraveled human-parasite interactomes in 15 parasites, TROPIC proposes a complementary approach involving genomics and structural biology. Here, determined human-parasite interactions were modeled using [AF2-Multimer v2.2](https://www.biorxiv.org/content/10.1101/2021.10.04.463034v1) on the [TRUBA](https://www.truba.gov.tr/) (Turkish National Computational Resources).
+Parasitic diseases, particularly prevalent in underdeveloped countries and among young children, pose a significant global concern with substantial socioeconomic impacts. To overcome the challenges posed by drug resistance and limited pharmaceutical options, understanding molecular interactions between parasites and hosts at the genetic, transcriptomic, proteomic, and metabolomic levels is crucial for unraveling infection patterns and host adaptation. Building on Dr. Cuesta-Astroz's 2019 study¹ that unraveled human-parasite interactomes in 15 parasites, TROPIC proposes a complementary approach involving genomics and structural biology. Here, determined human-parasite interactions were modeled using AF2-Multimer v2.2² on the Turkish National Computational Resources³ (TRUBA).
 
 ## Methodology: _Modeling of Identified Human-Parasite Interactions Using AF2-Multimer_
 
@@ -32,3 +32,6 @@ Since we aim to select candidates with a significant biological impact in host-p
 
 
 #### References
+1- Cuesta-Astroz, Y., Santos, A., Oliveira, G., & Jensen, L. J. (2019). Analysis of Predicted Host-Parasite Interactomes Reveals Commonalities and Specificities Related to Parasitic Lifestyle and Tissues Tropism. Frontiers in immunology, 10, 212. https://doi.org/10.3389/fimmu.2019.00212
+2- Evans, R., O’Neill, M., Pritzel, A., Antropova, N., Senior, A., Green, T., ... & Hassabis, D. (2021). Protein complex prediction with AlphaFold-Multimer. biorxiv, 2021-10.
+3- https://www.truba.gov.tr/
