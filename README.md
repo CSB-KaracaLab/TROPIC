@@ -6,13 +6,13 @@ _Authors' list will be added according to Ezgi hoca's comment_
 
 Parasitic diseases, predominantly prevalent in underdeveloped countries and impacting young children, present a significant global concern with substantial socioeconomic impacts. Unfortunately, combating these diseases is challenging due to limited pharmaceutical options and drug resistance. Addressing these challenges requires a comprehensive understanding of molecular interactions between parasites and hosts across various levels. Here, TROPIC (inTegRative hOst-Parasite InteraCtions) introduces a combinatory approach that integrates pathogen genomics and structural biology to explore targetable, new host-parasite interactions. This project is a bilateral collaboration between Karaca Lab and Cuesto-Astroz Lab, funded by TÜBİTAK and MINCIENCIAS with TÜBİTAK project number 2511.
 
-TROPIC was build upon Dr. Cuesta-Astroz's study¹ unraveling human-parasite interactomes in 15 parasites. For this, we focused on [276 domain-domain interactions](https://github.com/beyzakaynarca/TROPIC/blob/main/Determined-human-parasite-interactions.txt) at the most central nodes of 15 eukaryotic parasites (_T. spiralis, T. gondii, T. brucei, S. mansoni, P. vivax, P. knowlesi, L. infantum, L. donovani, L. braziliensis, C. parvum, G. lamblia, T. cruzi, P. falciparum, C. hominis, and L. mexicana_) and employed domain-domain host-parasite interaction modeling using AF2-Multimer v2.2² on the Turkish National Computational Resources³ (TRUBA).
+TROPIC was built upon Dr. Cuesta-Astroz's study¹ unraveling human-parasite interactomes in 15 parasites. For this, we focused on [276 domain-domain interactions](https://github.com/beyzakaynarca/TROPIC/blob/main/Determined-human-parasite-interactions.txt) at the most central nodes of 15 eukaryotic parasites (_T. spiralis, T. gondii, T. brucei, S. mansoni, P. vivax, P. knowlesi, L. infantum, L. donovani, L. braziliensis, C. parvum, G. lamblia, T. cruzi, P. falciparum, C. hominis, and L. mexicana_) and employed domain-domain host-parasite interaction modeling using AF2-Multimer v2.2² on the Turkish National Computational Resources³ (TRUBA).
 
 ## Methodology: _Modeling human-parasite interactions using AF2-Multimer and selecting models with a potentially significant biological impact_
 
 ### AF2-Multimer Modeling
 
-Within the TROPIC framework, we utilized the advanced deep learning approach of AF2-Multimer v2.2 to model the three-dimensional structures of identified domain-domain interactions. This modeling process was executed on the Palamut node of TRUBA (on 64 cores x 2 CPU & Nvidia A100 GPU) since modeling 276 interactions requires recursive modeling, substantial computational power, and extensive storage data. In our modeling procedure, we used to the default settings of AF2-Multimer v2.2, generating 25 models for each domain-domain interaction. 
+Within the TROPIC framework, we utilized the advanced deep learning approach of AF2-Multimer v2.2 to model the three-dimensional structures of identified domain-domain interactions. This modeling process was executed on the Palamut node of TRUBA (on 64 cores x 2 CPU & Nvidia A100 GPU) since modeling 276 interactions requires recursive modeling, substantial computational power, and extensive storage data. In our modeling procedure, we used the default settings of AF2-Multimer v2.2, generating 25 models for each domain-domain interaction. 
 
 #### Evaluation of modeled interactions
 
@@ -40,7 +40,7 @@ To identify models with a potentially significant biological impact in host-para
 
 </div>
 
-![tropic-final-candidates](tropic-final-candidates.jpeg)
+![tropic-final-candidates](targetable-candidates.jpeg)
 
 ### Contact information:
 
