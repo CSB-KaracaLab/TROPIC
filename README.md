@@ -32,7 +32,7 @@ Low PAE values for residue pairs (x, y) between different domains mean well-defi
 ## Results: Selected targetable, new host-parasite interactions
 We employed [AF2 evaluation script prepared by Andrea Graziadei⁴](https://github.com/grandrea/Alphafold-analysis) to assess the 276 interactions modeled. This analysis script generates PAE and pLDDT plots, 3D structures colored by pLDDT and chains, and a CSV file containing confidence, pLDDT, ipTM, and TM scores. The scores for the Ranked_0 models of each parasite-host interaction are accessible [here](TROPIC-AF2-results.csv).
 
-To identify models with a potentially significant biological impact in host-parasite interactions, we set a confidence score threshold of 0.9 to select highly confident models. Out of the 276 interactions, eight were determined as candidates (Table 1). The run files corresponding to these selected interactions are deposited in [Aperta⁵](). Within each file, there are 25 generated models (ranked according to confidence score), an MSA (Multiple Sequence Alignment) folder, a JSON file, and our analysis results (PAE and pLDDT graphs, model statistics CSV file, ranked_0 model structure colored by chain and colored by plDDT).
+To identify models with a potentially significant biological impact in host-parasite interactions, we set a confidence score threshold of 0.9 to select highly confident models. Out of the 276 interactions, eight were determined as candidates (Table 1). The run files corresponding to these selected interactions are deposited in [Aperta⁵](). Within each file, model folder that contains 25 generated models (ranked according to confidence score),an MSA (Multiple Sequence Alignment) folder, a JSON file, and a result folder that contains our analysis results (PAE and pLDDT graphs, model statistics CSV file, ranked_0 model structure colored by chain and colored by plDDT).
 
 <div align="center">
 
@@ -40,7 +40,7 @@ To identify models with a potentially significant biological impact in host-para
 
 </div>
 
-![tropic-final-candidates](targetable-candidates.jpeg)
+![tropic-final-candidates](targetable-interactions.png)
 
 ### Contact information:
 
