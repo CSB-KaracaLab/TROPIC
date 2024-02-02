@@ -1,10 +1,10 @@
 <img width="1099" alt="github-title" src="Title-Tropic.png">
 
-_Authors' list will be added according to Ezgi hoca's comment_
+_Prepared by [Beyza Kaynarca](https://github.com/beyzakaynarca) & [Burcu Ozden](https://github.com/BurcuOzden)_
 
 
 
-Parasitic diseases, predominantly prevalent in underdeveloped countries and impacting young children, present a significant global concern with substantial socioeconomic impacts. Unfortunately, combating these diseases is challenging due to limited pharmaceutical options and drug resistance. Addressing these challenges requires a comprehensive understanding of molecular interactions between parasites and hosts across various levels. Here, TROPIC (inTegRative hOst-Parasite InteraCtions) introduces a combinatory approach that integrates pathogen genomics and structural biology to explore targetable, new host-parasite interactions. This project is a bilateral collaboration between Karaca Lab and Cuesto-Astroz Lab, funded by TÜBİTAK and MINCIENCIAS with TÜBİTAK project number 2511.
+Parasitic diseases, predominantly prevalent in underdeveloped countries and impacting young children, present a significant global concern with substantial socioeconomic impacts. Unfortunately, combating these diseases is challenging due to limited pharmaceutical options and drug resistance. Addressing these challenges requires a comprehensive understanding of molecular interactions between parasites and hosts across various levels. Here, TROPIC (inTegRative hOst-Parasite InteraCtions) introduces a combinatory approach that integrates pathogen genomics and structural biology to explore targetable, new host-parasite interactions. This project is a bilateral collaboration between [CSB-KaracaLab](https://github.com/CSB-KaracaLab) and Cuesto-Astroz Lab, funded by TÜBİTAK and MINCIENCIAS with TÜBİTAK project number 2511.
 
 TROPIC was built upon Dr. Cuesta-Astroz's study¹ unraveling human-parasite interactomes in 15 parasites. For this, we focused on [276 domain-domain interactions](https://github.com/beyzakaynarca/TROPIC/blob/main/Determined-human-parasite-interactions.txt) at the most central nodes of 15 eukaryotic parasites (_T. spiralis, T. gondii, T. brucei, S. mansoni, P. vivax, P. knowlesi, L. infantum, L. donovani, L. braziliensis, C. parvum, G. lamblia, T. cruzi, P. falciparum, C. hominis, and L. mexicana_) and employed domain-domain host-parasite interaction modeling using AlphaFold2-Multimer v2.2² on the Turkish National Computational Resources³ (TRUBA).
 
