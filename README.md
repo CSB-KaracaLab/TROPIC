@@ -1,8 +1,12 @@
 <img width="1099" alt="github-title" src="Title-Tropic.png">
 
+_Authors' list will be added according to Ezgi hoca's comment_
 
 
-Parasitic diseases, predominantly prevalent in underdeveloped countries and impacting young children, present a significant global concern with substantial socioeconomic impacts. Unfortunately, combating these diseases is challenging due to limited pharmaceutical options and drug resistance. Addressing these challenges requires a comprehensive understanding of molecular interactions between parasites and hosts across various levels. Here, TROPIC introduces a combinatory approach that integrates genomics and structural biology by building upon Dr. Cuesta-Astroz's study¹ unraveling human-parasite interactomes in 15 parasites. For this, we focused on [276 domain-domain interactions](https://github.com/beyzakaynarca/TROPIC/blob/main/Determined-human-parasite-interactions.txt) at the most central nodes of 15 eukaryotic parasites (T. spiralis, T. gondii, T. brucei, S. mansoni, P. vivax, P. knowlesi, L. infantum, L. donovani, L. braziliensis, C. parvum, G. lamblia, T. cruzi, P. falciparum, C. hominis, and L. mexicana) and employed domain-domain host-parasite interaction modeling using AF2-Multimer v2.2² on the Turkish National Computational Resources³ (TRUBA).
+
+Parasitic diseases, predominantly prevalent in underdeveloped countries and impacting young children, present a significant global concern with substantial socioeconomic impacts. Unfortunately, combating these diseases is challenging due to limited pharmaceutical options and drug resistance. Addressing these challenges requires a comprehensive understanding of molecular interactions between parasites and hosts across various levels. Here, TROPIC (inTegRative hOst-Parasite InteraCtions) introduces a combinatory approach that integrates pathogen genomics and structural biology to explore targetable, new host-parasite interactions. This project is a bilateral collaboration between Karaca Lab and Cuesto-Astroz Lab, funded by TÜBİTAK and MINCIENCIAS with TÜBİTAK project number 2511.
+
+TROPIC was build upon Dr. Cuesta-Astroz's study¹ unraveling human-parasite interactomes in 15 parasites. For this, we focused on [276 domain-domain interactions](https://github.com/beyzakaynarca/TROPIC/blob/main/Determined-human-parasite-interactions.txt) at the most central nodes of 15 eukaryotic parasites (_T. spiralis, T. gondii, T. brucei, S. mansoni, P. vivax, P. knowlesi, L. infantum, L. donovani, L. braziliensis, C. parvum, G. lamblia, T. cruzi, P. falciparum, C. hominis, and L. mexicana_) and employed domain-domain host-parasite interaction modeling using AF2-Multimer v2.2² on the Turkish National Computational Resources³ (TRUBA).
 
 ## Methodology: _Modeling human-parasite interactions using AF2-Multimer and selecting models with a potentially significant biological impact_
 
@@ -26,18 +30,29 @@ For each run, among 25 generated models, we selected the Ranked_0.pdb model that
 Low PAE values for residue pairs (x, y) between different domains mean well-defined relative positions and orientations for those domains. On the contrary, high PAE values for residue pairs (x, y) between distinct domains indicate uncertainty in the relative positions and/or orientations of these domains.
 
 ## Results
-We employed [AF2 evaluation script prepared by Andrea Graziadei](https://github.com/grandrea/Alphafold-analysis)(4***) to assess the 276 interactions we modeled. This analysis script generates PAE and pLDDT plots, 3D structures colored by pLDDT and chains, and a CSV file containing confidence, pLDDT, ipTM and TM scores. The scores for the Ranked_0 models of each parasite-host interaction are accessible in the [here](TROPIC-AF2-results.csv).
+We employed [AF2 evaluation script prepared by Andrea Graziadei⁴](https://github.com/grandrea/Alphafold-analysis) to assess the 276 interactions we modeled. This analysis script generates PAE and pLDDT plots, 3D structures colored by pLDDT and chains, and a CSV file containing confidence, pLDDT, ipTM and TM scores. The scores for the Ranked_0 models of each parasite-host interaction are accessible in the [here](TROPIC-AF2-results.csv).
 
-To identify models with a potentially significant biological impact in host-parasite interactions, we set a confidence score threshold of 0.9 to select highly confident models. Out of the 276 interactions, eight were determined as candidates (Table 1). The run files corresponding to these selected interactions are deposited in [Aperta](). Within each file, there are 25 generated models (ranked according to confidence score), MSA (Multiple Sequence Alignment) folder, JSON file, and our analysis results (PAE and pLDDT graphs, model statistics CSV file, ranked_0 model structure colored by chain and colored by plDDT).
+To identify models with a potentially significant biological impact in host-parasite interactions, we set a confidence score threshold of 0.9 to select highly confident models. Out of the 276 interactions, eight were determined as candidates (Table 1). The run files corresponding to these selected interactions are deposited in [Aperta⁵](). Within each file, there are 25 generated models (ranked according to confidence score), MSA (Multiple Sequence Alignment) folder, JSON file, and our analysis results (PAE and pLDDT graphs, model statistics CSV file, ranked_0 model structure colored by chain and colored by plDDT).
+
+<div align="center">
+
+**Table 1. Host-Parasite Interactions with Potentially Significant Biological Impacts.** The table contains information on parasite names, Uniprot IDs of host-parasite couples, structures colored by chains and pLDDT, confidence score, pTM, ipTM, and pLDDT scores.
+
+</div>
 
 ![tropic-final-candidates](tropic-final-candidates.jpeg)
 
 ### Contact information:
-******
-#### References
+
+Ezgi Karaca: ezgi.karaca@ibg.edu.tr
+
+### References
 1- Cuesta-Astroz, Y., Santos, A., Oliveira, G., & Jensen, L. J. (2019). Analysis of Predicted Host-Parasite Interactomes Reveals Commonalities and Specificities Related to Parasitic Lifestyle and Tissues Tropism. Frontiers in immunology, 10, 212. https://doi.org/10.3389/fimmu.2019.00212
 
 2- Evans, R., O’Neill, M., Pritzel, A., Antropova, N., Senior, A., Green, T., ... & Hassabis, D. (2021). Protein complex prediction with AlphaFold-Multimer. biorxiv, 2021-10.
 
-3- https://www.truba.gov.tr/
-4- _Andrea's name-surname, title page, github web adress_
+3- TRUBA (Turkish National Computational Resources) Website: https://www.truba.gov.tr/
+
+4- Andrea Graziadei, Alphafold-analysis, https://github.com/grandrea/Alphafold-analysis  
+
+5- Aperta (Open Source Archive of Turkey) Website: https://aperta.ulakbim.gov.tr/
