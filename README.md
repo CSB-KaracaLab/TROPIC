@@ -18,7 +18,7 @@ Within the TROPIC framework, we utilized the advanced deep learning approach, Al
 
 Following the completion of the modeling step, the models were evaluated to find the models with high-quality interfaces. This assessment relied on the confidence score provided in the AF2-Multimer output, where
 - **Confidence score (Confidence Rank - Confrank)** is a linear combination of the predicted interface TM score (ipTM) and the predicted TM score (pTM), calculated as 0.8 × ipTM + 0.2 × pTM. 
-- **ipTM (Interface Predicted Template Modeling) Score** assesses the quality of interfaces in multimeric structures and gauges accuracy at the complex level and. 
+- **ipTM (Interface Predicted Template Modeling) Score** assesses the quality of interfaces in multimeric structures and gauges accuracy at the complex level.
 - **pTM (Predicted Template Modeling) Score:** represents the matching value between two constructs and assesses the accuracy of predictions within individual protein chains.
 
 All scores range between 0 and 1, where an increase in scores corresponds to improved model quality.
